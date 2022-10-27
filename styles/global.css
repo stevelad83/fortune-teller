@@ -76,6 +76,7 @@ button {
     text-transform: uppercase;
     font-size: xx-large;
     text-align: center;
+    background-color: aqua;
 }
 
 #prompt {
