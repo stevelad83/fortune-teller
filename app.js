@@ -21,9 +21,10 @@ const responsesArray = [
 ];
 
 const submitBtn = document.getElementById('submit');
+const answer = document.getElementById('renderAnswer');
 
 submitBtn.addEventListener('click', () => {
     const randomNum = Math.floor(Math.random() * responsesArray.length);
     const randomAnswer = responsesArray[randomNum];
-    console.log(randomAnswer);
+    answer.textContent = randomAnswer;
 });
