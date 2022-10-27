@@ -25,6 +25,7 @@ const answer = document.getElementById('renderAnswer');
 const resetBtn = document.getElementById('reset');
 const promptEl = document.getElementById('prompt');
 const replyEl = document.getElementById('reply');
+const questionEl = document.getElementById('question-bar');
 
 function toggleSections() {
     promptEl.classList.toggle('hide');
@@ -36,6 +37,7 @@ submitBtn.addEventListener('click', () => {
     const randomNum = Math.floor(Math.random() * responsesArray.length);
     const randomAnswer = responsesArray[randomNum];
     answer.textContent = randomAnswer;
+    questionEl.value = '';
 });
 
 resetBtn.addEventListener('click', toggleSections);
