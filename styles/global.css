@@ -1,15 +1,16 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background: rgb(219, 149, 239);
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: 'MedievalSharp', cursive;
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    justify-content: center;
 }
 
 header {
@@ -30,6 +31,62 @@ header .logo {
     height: 100%;
 }
 
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
 main {
     padding: 20px;
+}
+
+#ball {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hide {
+    display: none;
+}
+
+#question-bar {
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: left;
+    width: 400px;
+}
+
+button {
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#reset {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#renderAnswer {
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+    background-color: aqua;
+}
+
+#prompt {
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#reply {
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
 }
