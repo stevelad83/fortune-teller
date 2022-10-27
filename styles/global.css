@@ -44,6 +44,9 @@ main {
 
 #ball {
     width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hide {
@@ -55,16 +58,34 @@ main {
     font-size: 15px;
     border-radius: 30px;
     text-align: left;
+    width: 400px;
 }
 
 button {
-    padding: 15px 50px 15px 15px;
-    font-size: 18px;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
     border-radius: 30px;
-    text-align: center;
+}
+
+#reset {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #renderAnswer {
     text-transform: uppercase;
     font-size: xx-large;
+    text-align: center;
+}
+
+#prompt {
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#reply {
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
 }
