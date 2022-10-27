@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: 'MedievalSharp', cursive;
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
@@ -31,6 +31,13 @@ header .logo {
     height: 100%;
 }
 
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
 main {
     padding: 20px;
 }
@@ -48,5 +55,16 @@ main {
     font-size: 15px;
     border-radius: 30px;
     text-align: left;
-    border: 0;
+}
+
+button {
+    padding: 15px 50px 15px 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#renderAnswer {
+    text-transform: uppercase;
+    font-size: xx-large;
 }
